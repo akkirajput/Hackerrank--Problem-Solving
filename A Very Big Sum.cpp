@@ -7,7 +7,7 @@ vector<string> split_string(string);
 // Complete the aVeryBigSum function below.
 long aVeryBigSum(vector<long> ar) {
 
-    long int sum=0;
+    long int sum=0; //to store value of sum
     for(auto i=ar.begin();i!=ar.end();i++)
     {
         sum=sum+(*i);
